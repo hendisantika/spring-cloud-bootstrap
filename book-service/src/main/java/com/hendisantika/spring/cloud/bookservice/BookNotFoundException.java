@@ -1,5 +1,8 @@
 package com.hendisantika.spring.cloud.bookservice;
 
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
 /**
  * Created by IntelliJ IDEA.
  * Project : spring-cloud-bootstrap
@@ -10,7 +13,10 @@ package com.hendisantika.spring.cloud.bookservice;
  * Time: 07.35
  * To change this template use File | Settings | File Templates.
  */
-public class BookNotFoundException extends X {
+
+@ResponseStatus(HttpStatus.NOT_FOUND)
+public class BookNotFoundException extends RuntimeException{
     public BookNotFoundException(String s) {
+        super(s);
     }
 }
