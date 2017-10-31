@@ -1,4 +1,4 @@
-package com.hendisantika.spring.cloud.bookservice;
+package com.hendisantika.spring.cloud.bookservice.book;
 
 import com.google.common.base.Preconditions;
 import org.springframework.beans.factory.annotation.Autowired;

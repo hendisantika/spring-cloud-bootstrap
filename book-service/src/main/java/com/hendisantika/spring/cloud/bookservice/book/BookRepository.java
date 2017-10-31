@@ -1,4 +1,4 @@
-package com.hendisantika.spring.cloud.bookservice;
+package com.hendisantika.spring.cloud.bookservice.book;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
