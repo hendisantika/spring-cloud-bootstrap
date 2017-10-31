@@ -4,9 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.hendisantika.spring.cloud</groupId>
-		<artifactId>spring-cloud</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.8.RELEASE</version>
+		
 	</parent>
 
 	<modules>
@@ -19,6 +20,7 @@
 	</modules>
 
 
+	<groupId>com.hendisantika.spring.cloud</groupId>
 	<artifactId>spring-cloud-bootstrap</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
